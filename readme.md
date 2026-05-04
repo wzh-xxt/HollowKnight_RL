@@ -2,7 +2,7 @@
 
 ## 🎬 Demo
 
-[![Demo Video](Tools/demo.png)](https://www.bilibili.com/video/BV1Jy9iBqEQG/)
+[![Demo Video](Tools/demo.jpg)](https://www.bilibili.com/video/BV1Jy9iBqEQG/)
 
 ## Environment
 
