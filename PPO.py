@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.distributions.categorical import Categorical
 
-class DQN:
+class PPO:
     def __init__(self, model, learning_rate=1e-4):
         self.model = model
 
