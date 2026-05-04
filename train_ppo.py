@@ -4,7 +4,7 @@ import torch
 import time
 import collections
 from Model_ppo import Model
-from DQN_ppo import DQN
+from PPO import PPO
 from Agent_ppo import Agent
 from Tool.tensor import to_tensor
 import random
@@ -290,7 +290,7 @@ if __name__ == '__main__':
     hp = Hp_getter()
 
     model.load_model()
-    algorithm = DQN(model, learning_rate=LEARNING_RATE)
+    algorithm = PPO(model, learning_rate=LEARNING_RATE)
     agent = Agent(ACTION_DIM, algorithm)
 
     max_episode = 30000
